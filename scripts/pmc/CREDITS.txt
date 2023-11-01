@@ -1,0 +1,6 @@
+Java portable:
+  https://portableapps.com/apps/utilities/java_portable
+Minecraft launcher:
+  https://github.com/UltimMC/Launcher
+Minecraft:
+  https://minecraft.net
