@@ -19,4 +19,5 @@ if ($ContinueScript -eq 0) {
   $Shortcut = $WshShell.CreateShortcut("$env:AppData\Microsoft\Windows\Start Menu\Programs\UltimMC.lnk")
   $Shortcut.TargetPath = "$HOME\PMC\UltimMC\UltimMC.exe"
   $Shortcut.Save()
+  rm -r "$HOME\PMCSCRIPTTEMP"
 }
